@@ -2,6 +2,8 @@ body {
     font-weight: 400;
     background-image: url(burger.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #333;
 }
 
 main {
@@ -10,6 +12,7 @@ main {
 
 main h1 {
     font-weight: 400;
+    font-size: 75px;
     text-align: center;
     color: white;
 }
