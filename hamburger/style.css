@@ -1,5 +1,7 @@
 body {
     font-weight: 400;
+    background-image: url(burger.jpg);
+    background-size: cover;
 }
 
 main {
@@ -9,6 +11,7 @@ main {
 main h1 {
     font-weight: 400;
     text-align: center;
+    color: white;
 }
 
 nav {
@@ -17,7 +20,7 @@ nav {
     position: fixed;
     background-color: #ffffff;
     top: 0;
-    left: 300;
+    left: -300px;
     bottom: 0;
     transition: all 0.5s;
     z-index: 3;
@@ -106,7 +109,7 @@ nav .inner ul li a:hover {
 }
 
 .open .toggle-btn span:nth-child(3) {
-    transform: translateY(10px) rotate(315deg);
+    transform: translateY(-10px) rotate(315deg);
 }
 
 #mask {
@@ -114,7 +117,7 @@ nav .inner ul li a:hover {
     transition: all 0.5s;
 }
 
-.open mask {
+.open #mask {
     display: block;
     background-color: #000;
     width: 100%;
